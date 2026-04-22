@@ -64,10 +64,13 @@
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Custom modern styles -->
+    <link href="css/custom.css" rel="stylesheet" />
 </head>
 <body id="page-top">
 <!-- Navigation-->
@@ -121,7 +124,7 @@
         <div class="resume-section-content">
             <h2 class="mb-5" data-i18n="skills.title">Skills</h2>
             <div class="subheading mb-3" data-i18n="skills.subtitle">Programming Languages & Tools</div>
-            <ul class="list-inline">
+            <ul class="list-inline skill-badges">
                 <li>Php, Laravel</li>
                 <li>Flutter, Dart</li>
                 <li data-i18n="skills.apis">Rest & Soap Apis</li>
@@ -141,8 +144,9 @@
     <section class="resume-section" id="experience">
         <div class="resume-section-content">
             <h2 class="mb-5" data-i18n="exp.title">Experience</h2>
+            <div class="experience-timeline">
             <!-- Mebius -->
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="timeline-entry d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0" data-i18n="exp.mebius.role">Full Stack Developer</h3>
                     <div class="subheading mb-3">Mebius S.r.l</div>
@@ -171,7 +175,7 @@
                 <div class="flex-shrink-0"><span class="text-primary" data-i18n="exp.mebius.date">May 2023 - Present</span></div>
             </div>
             <!-- Innover -->
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="timeline-entry d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0" data-i18n="exp.innover.role">Full Stack Developer</h3>
                     <div class="subheading mb-3">Innover Srl</div>
@@ -202,7 +206,7 @@
                 <div class="flex-shrink-0"><span class="text-primary" data-i18n="exp.innover.date">January 2021 - April 2023</span></div>
             </div>
             <!-- Codian -->
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="timeline-entry d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0" data-i18n="exp.codian.role">Web Developer</h3>
                     <div class="subheading mb-3">Codian Soft</div>
@@ -223,6 +227,7 @@
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary" data-i18n="exp.codian.date">January 2018 - November 2020</span></div>
             </div>
+            </div>
         </div>
     </section>
     <hr class="m-0" />
@@ -230,6 +235,7 @@
     <section class="resume-section" id="education">
         <div class="resume-section-content">
             <h2 class="mb-5" data-i18n="edu.title">Education</h2>
+            <div class="education-cards">
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0" data-i18n="edu.sapienza">Sapienza University Of Rome</h3>
@@ -244,6 +250,7 @@
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary" data-i18n="edu.quest.date">January 2014 - January 2018</span></div>
             </div>
+            </div>
         </div>
     </section>
     <hr class="m-0" />
@@ -251,7 +258,7 @@
     <section class="resume-section" id="interests">
         <div class="resume-section-content">
             <h2 class="mb-5" data-i18n="int.title">Interests</h2>
-            <ul>
+            <ul class="interests-grid">
                 <li data-i18n="int.chess">Playing chess</li>
                 <li data-i18n="int.gaming">Gaming</li>
                 <li data-i18n="int.audiobooks">Listening to audiobooks</li>
@@ -265,7 +272,7 @@
     <section class="resume-section" id="awards">
         <div class="resume-section-content">
             <h2 class="mb-5" data-i18n="pub.title">Publications</h2>
-            <ul class="fa-ul mb-0">
+            <ul class="fa-ul mb-0 publication-card">
                 <li>
                     <a href="http://www.astrj.com/Face-Recognition-Comparative-Analysis-Using-Different-Machine-Learning-Approaches,132611,0,2.html" target="_blank" data-i18n="pub.face">Face Recognition Comparative Analysis Using Different Machine Learning Approaches</a>
                 </li>
