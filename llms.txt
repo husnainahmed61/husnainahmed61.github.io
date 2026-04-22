@@ -1,0 +1,53 @@
+# Husnain Ahmed
+
+> Full Stack Developer based in Rome, Italy. Skilled in Laravel, Flutter, and diverse tech stacks. Passionate about end-to-end solutions.
+
+## Contact
+- Email: husnainahmed61@gmail.com
+- LinkedIn: https://www.linkedin.com/in/husnain-ahmed-dev/
+- GitHub: https://github.com/husnainahmed61
+- Location: Rome, Italy
+
+## Skills
+- PHP, Laravel
+- Flutter, Dart
+- JavaScript, Ajax, jQuery
+- Vue.js, Laravel Livewire
+- MySQL, Firebase Firestore
+- REST & SOAP APIs
+- Bootstrap, HTML, CSS
+- Linux, Nginx, Apache
+- AWS (Instances, Storage)
+- Android & iOS app publishing
+
+## Experience
+
+### Full Stack Developer — Mebius S.r.l (May 2023 – Present)
+Rome, Italy
+- Integrating open-source and third-party tools into existing systems
+- Designing, coding, and maintaining dynamic websites and applications
+- Debugging, testing, and optimizing databases and applications
+- Web projects: shopper.mebius.it, mccustomers.mebius.it, voc.mebius.it, abf.mebius.it, inaabf.mebius.it
+- App projects: Mystery Client (Android & iOS)
+
+### Full Stack Developer — Innover Srl (January 2021 – April 2023)
+Rome, Italy
+- Developing dynamic websites and web applications for corporate, e-commerce, and educational clients
+- Coordinating with developer team on code modules, debugging, and testing
+- Web projects: lab.fincontinuo.com, over.oltreassicurazioni.it, bancadelfucino.innover.cloud, innover.cloud
+- App projects: Chiomha, Fincontinuo App, UTC Clock, Permesso di Soggiorno
+
+### Web Developer — Codian Soft (January 2018 – November 2020)
+Karachi, Pakistan
+- Attending team meetings, developing features, writing code in HTML/CSS, JavaScript, SQL, PHP
+- Web projects: newalkebulanschools.com, islamabadproperty.pk, gradeyourschool.at
+
+## Education
+- Masters in Computer Science — Sapienza University of Rome (2020–2023)
+- Bachelors in Computer Science — Quaid-e-Awam University of Science and Technology (2014–2018)
+
+## Publications
+- Face Recognition Comparative Analysis Using Different Machine Learning Approaches (http://www.astrj.com/Face-Recognition-Comparative-Analysis-Using-Different-Machine-Learning-Approaches,132611,0,2.html)
+
+## Interests
+- Playing chess, Gaming, Listening to audiobooks, Visiting new places, Exploring different cultures
