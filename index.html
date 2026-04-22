@@ -8,8 +8,14 @@
     <meta name="keywords" content="Husnain Ahmed, Full Stack Developer, Laravel, Flutter, Vue.js, PHP, Rome, Italy, Software Engineer, Web Developer" />
     <title>Husnain Ahmed - Full Stack Developer | Resume</title>
     <link rel="canonical" href="https://husnainahmed61.github.io/" />
+    <link rel="alternate" hreflang="en" href="https://husnainahmed61.github.io/" />
+    <link rel="alternate" hreflang="it" href="https://husnainahmed61.github.io/" />
+    <link rel="alternate" hreflang="x-default" href="https://husnainahmed61.github.io/" />
     <link rel="help" type="text/plain" href="https://husnainahmed61.github.io/llms.txt" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Preload critical assets for LCP -->
+    <link rel="preload" href="assets/img/pp4.png" as="image" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" />
     <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Husnain Ahmed - Full Stack Developer" />
@@ -51,6 +57,26 @@
           "@type": "CollegeOrUniversity",
           "name": "Quaid-e-Awam University of Engineering, Science and Technology",
           "department": "Computer Science"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "MSc in Computer Science",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Sapienza University of Rome"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "BSc in Computer Science",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Quaid-e-Awam University of Engineering, Science and Technology"
+          }
         }
       ],
       "knowsAbout": ["PHP", "Laravel", "Flutter", "Dart", "JavaScript", "Vue.js", "MySQL", "Firebase", "AWS", "REST APIs", "Bootstrap", "Linux", "Nginx"],
@@ -101,14 +127,15 @@
 <div class="container-fluid p-0">
     <!-- About-->
     <section class="resume-section" id="about">
-        <div class="resume-section-content">
+        <div class="resume-section-content" data-animate>
             <h1 class="mb-0">
                 Husnain
                 <span class="text-primary">Ahmed</span>
             </h1>
-            <div class="subheading mb-5">
-                Via Filippo Fiorentini, 106, 00159 Roma RM · (39) 347-472-9427 ·
-                <a href="mailto:husnainahmed61@gmail.com">husnainahmed61@gmail.com</a>
+            <div class="contact-chips mb-5">
+                <span class="contact-chip"><i class="fas fa-map-marker-alt"></i> Via Filippo Fiorentini, 106, 00159 Roma RM</span>
+                <a href="tel:+39347472927" class="contact-chip"><i class="fas fa-phone"></i> +39 347 472 9427</a>
+                <a href="mailto:husnainahmed61@gmail.com" class="contact-chip"><i class="fas fa-envelope"></i> husnainahmed61@gmail.com</a>
             </div>
             <p class="lead mb-5" data-i18n="about.tagline">I build robust web platforms and cross-platform mobile apps from the ground up. With 6+ years shipping production code in Laravel, Flutter, and Vue.js, I turn complex requirements into clean, scalable solutions.</p>
             <div class="social-icons">
@@ -121,43 +148,60 @@
     <hr class="m-0" />
     <!-- Skills-->
     <section class="resume-section" id="skills">
-        <div class="resume-section-content">
+        <div class="resume-section-content" data-animate>
             <h2 class="mb-5" data-i18n="skills.title">Skills</h2>
-            <div class="subheading mb-3" data-i18n="skills.subtitle">Languages, Frameworks & Tools</div>
-            <ul class="list-inline skill-badges">
-                <li>PHP</li>
-                <li>Laravel</li>
-                <li>Livewire</li>
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>JavaScript</li>
-                <li>Vue.js</li>
-                <li>jQuery</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>MySQL</li>
-                <li>Firebase</li>
-                <li>REST APIs</li>
-                <li>SOAP APIs</li>
-                <li>AWS</li>
-                <li>Linux</li>
-                <li>Nginx</li>
-                <li>Apache</li>
-                <li>Git</li>
-                <li>PhpStorm</li>
-                <li>Postman</li>
-                <li>Jira</li>
-                <li>Trello</li>
-                <li>Android</li>
-                <li>iOS</li>
-            </ul>
+            <div class="skill-category">
+                <h4 class="skill-category-heading" data-i18n="skills.backend">Backend</h4>
+                <ul class="list-inline skill-badges">
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Livewire</li>
+                    <li>MySQL</li>
+                    <li>Firebase</li>
+                    <li>REST APIs</li>
+                    <li>SOAP APIs</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4 class="skill-category-heading" data-i18n="skills.frontend">Frontend</h4>
+                <ul class="list-inline skill-badges">
+                    <li>JavaScript</li>
+                    <li>Vue.js</li>
+                    <li>jQuery</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4 class="skill-category-heading" data-i18n="skills.mobile">Mobile</h4>
+                <ul class="list-inline skill-badges">
+                    <li>Flutter</li>
+                    <li>Dart</li>
+                    <li>Android</li>
+                    <li>iOS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4 class="skill-category-heading" data-i18n="skills.devops">DevOps & Tools</h4>
+                <ul class="list-inline skill-badges">
+                    <li>AWS</li>
+                    <li>Linux</li>
+                    <li>Nginx</li>
+                    <li>Apache</li>
+                    <li>Git</li>
+                    <li>PhpStorm</li>
+                    <li>Postman</li>
+                    <li>Jira</li>
+                    <li>Trello</li>
+                </ul>
+            </div>
         </div>
     </section>
     <hr class="m-0" />
     <!-- Experience-->
     <section class="resume-section" id="experience">
-        <div class="resume-section-content">
+        <div class="resume-section-content" data-animate>
             <h2 class="mb-5" data-i18n="exp.title">Experience</h2>
             <div class="experience-timeline">
             <!-- Mebius -->
@@ -248,7 +292,7 @@
     <hr class="m-0" />
     <!-- Education-->
     <section class="resume-section" id="education">
-        <div class="resume-section-content">
+        <div class="resume-section-content" data-animate>
             <h2 class="mb-5" data-i18n="edu.title">Education</h2>
             <div class="education-cards">
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -271,7 +315,7 @@
     <hr class="m-0" />
     <!-- Interests-->
     <section class="resume-section" id="interests">
-        <div class="resume-section-content">
+        <div class="resume-section-content" data-animate>
             <h2 class="mb-5" data-i18n="int.title">Interests</h2>
             <ul class="interests-grid">
                 <li data-i18n="int.chess">Chess & Strategy Games</li>
@@ -285,7 +329,7 @@
     <hr class="m-0" />
     <!-- Awards-->
     <section class="resume-section" id="awards">
-        <div class="resume-section-content">
+        <div class="resume-section-content" data-animate>
             <h2 class="mb-5" data-i18n="pub.title">Publications</h2>
             <ul class="fa-ul mb-0 publication-card">
                 <li>
@@ -294,7 +338,28 @@
             </ul>
         </div>
     </section>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p class="footer-copy" data-i18n="footer.copy">&copy; 2025 Husnain Ahmed. All rights reserved.</p>
+        <p class="footer-tagline" data-i18n="footer.tagline">Built with Laravel, Flutter & curiosity.</p>
+    </footer>
 </div>
+<!-- Scroll entrance animations -->
+<script>
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var els = document.querySelectorAll('[data-animate]');
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  els.forEach(function (el) { observer.observe(el); });
+})();
+</script>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->

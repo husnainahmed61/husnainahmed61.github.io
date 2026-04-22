@@ -15,6 +15,10 @@ const translations = {
     // Skills
     "skills.title": "Skills",
     "skills.subtitle": "Languages, Frameworks & Tools",
+    "skills.backend": "Backend",
+    "skills.frontend": "Frontend",
+    "skills.mobile": "Mobile",
+    "skills.devops": "DevOps & Tools",
 
     // Experience
     "exp.title": "Experience",
@@ -63,7 +67,11 @@ const translations = {
 
     // Publications
     "pub.title": "Publications",
-    "pub.face": "Face Recognition Comparative Analysis Using Different Machine Learning Approaches"
+    "pub.face": "Face Recognition Comparative Analysis Using Different Machine Learning Approaches",
+
+    // Footer
+    "footer.copy": "\u00a9 2025 Husnain Ahmed. All rights reserved.",
+    "footer.tagline": "Built with Laravel, Flutter & curiosity."
   },
 
   it: {
@@ -82,6 +90,10 @@ const translations = {
     // Skills
     "skills.title": "Competenze",
     "skills.subtitle": "Linguaggi, Framework e Strumenti",
+    "skills.backend": "Backend",
+    "skills.frontend": "Frontend",
+    "skills.mobile": "Mobile",
+    "skills.devops": "DevOps e Strumenti",
 
     // Experience
     "exp.title": "Esperienza",
@@ -130,7 +142,11 @@ const translations = {
 
     // Publications
     "pub.title": "Pubblicazioni",
-    "pub.face": "Face Recognition Comparative Analysis Using Different Machine Learning Approaches"
+    "pub.face": "Face Recognition Comparative Analysis Using Different Machine Learning Approaches",
+
+    // Footer
+    "footer.copy": "\u00a9 2025 Husnain Ahmed. Tutti i diritti riservati.",
+    "footer.tagline": "Realizzato con Laravel, Flutter e curiosit\u00e0."
   }
 };
 
