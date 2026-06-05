@@ -4,6 +4,7 @@ const translations = {
     "nav.about": "About",
     "nav.skills": "Skills",
     "nav.experience": "Experience",
+    "nav.projects": "Personal Projects",
     "nav.education": "Education",
     "nav.interests": "Interests",
     "nav.publications": "Publications",
@@ -48,6 +49,15 @@ const translations = {
     "exp.codian.r2": "Shipped new features for e-commerce and education platforms using PHP, JavaScript, and MySQL, serving thousands of daily users.",
     "exp.codian.r3": "Built responsive front-ends with HTML/CSS and JavaScript, and wrote server-side modules with PHP and SQL.",
 
+    // Personal Projects
+    "proj.title": "Personal Projects",
+    "proj.intro": "Side projects I designed, built, and shipped on my own — from idea to production.",
+    "proj.link.live": "Live",
+    "proj.tatafacile.desc": "A platform connecting Italian families with document-verified babysitters. Profile filtering, in-app messaging, video calls, and secure payments — now serving 10,000+ families across Italy.",
+    "proj.avvisami.desc": "Never lose your stuff again. A smart QR sticker that lets finders contact you instantly while keeping your phone number 100% private.",
+    "proj.vin.desc": "Free 17-digit VIN decoder paired with full vehicle history reports — accidents, title brands, recalls, theft records, ownership history, and auction listings, all in one report.",
+    "proj.utc.desc": "A world clock app for Android that keeps you synced to global time zones — built for frequent travelers and international teams who need accurate, reliable timekeeping.",
+
     // Education
     "edu.title": "Education",
     "edu.sapienza": "Sapienza University Of Rome",
@@ -79,6 +89,7 @@ const translations = {
     "nav.about": "Chi Sono",
     "nav.skills": "Competenze",
     "nav.experience": "Esperienza",
+    "nav.projects": "Progetti Personali",
     "nav.education": "Formazione",
     "nav.interests": "Interessi",
     "nav.publications": "Pubblicazioni",
@@ -122,6 +133,15 @@ const translations = {
     "exp.codian.r1": "Tradotto i requisiti dei clienti in specifiche tecniche e consegnato funzionalit\u00e0 nei tempi previsti su 4 progetti web in parallelo.",
     "exp.codian.r2": "Rilasciato nuove funzionalit\u00e0 per piattaforme e-commerce ed educative con PHP, JavaScript e MySQL, servendo migliaia di utenti giornalieri.",
     "exp.codian.r3": "Realizzato front-end responsive con HTML/CSS e JavaScript, e sviluppato moduli server-side con PHP e SQL.",
+
+    // Personal Projects
+    "proj.title": "Progetti Personali",
+    "proj.intro": "Progetti personali che ho ideato, sviluppato e rilasciato in autonomia \u2014 dall'idea alla produzione.",
+    "proj.link.live": "Sito",
+    "proj.tatafacile.desc": "Piattaforma che connette le famiglie italiane con babysitter con documenti verificati. Filtri sui profili, messaggistica in-app, videochiamate e pagamenti sicuri \u2014 oggi al servizio di oltre 10.000 famiglie in tutta Italia.",
+    "proj.avvisami.desc": "Mai pi\u00f9 oggetti smarriti. L'adesivo QR intelligente che permette a chi trova le tue cose di contattarti all'istante, mantenendo il tuo numero privato al 100%.",
+    "proj.vin.desc": "Decodificatore VIN gratuito a 17 cifre con report completi sulla storia del veicolo \u2014 incidenti, titoli, richiami, furti, storia di propriet\u00e0 e aste, tutto in un unico report.",
+    "proj.utc.desc": "App orologio mondiale per Android per restare sincronizzato con i fusi orari globali \u2014 pensata per viaggiatori e team internazionali che hanno bisogno di precisione.",
 
     // Education
     "edu.title": "Formazione",

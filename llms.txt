@@ -35,12 +35,37 @@ Rome, Italy
 - Developing dynamic websites and web applications for corporate, e-commerce, and educational clients
 - Coordinating with developer team on code modules, debugging, and testing
 - Web projects: lab.fincontinuo.com, over.oltreassicurazioni.it, bancadelfucino.innover.cloud, innover.cloud
-- App projects: Chiomha, Fincontinuo App, UTC Clock, Permesso di Soggiorno
+- App projects: Chiomha, Fincontinuo App, Permesso di Soggiorno
 
 ### Web Developer — Codian Soft (January 2018 – November 2020)
 Karachi, Pakistan
 - Attending team meetings, developing features, writing code in HTML/CSS, JavaScript, SQL, PHP
 - Web projects: newalkebulanschools.com, islamabadproperty.pk, gradeyourschool.at
+
+## Personal Projects
+Side projects designed, built, and shipped solo — from idea to production.
+
+### TataFacile (2026)
+A platform connecting Italian families with document-verified babysitters. Features profile filtering, in-app messaging, video calls, and secure payments. Currently serves 10,000+ families across Italy with a 4.9/5 rating from 2,340+ reviews. Featured in Vanity Fair, Corriere.it, and Repubblica.
+- Stack: Laravel, Flutter, MySQL
+- Web: https://tatafacile.eu/
+- iOS: https://apps.apple.com/gb/app/tatafacile/id6759669595
+- Android: https://play.google.com/store/apps/details?id=tatafacile.eu
+
+### AvvisamiOnline (2026)
+Smart QR sticker service that lets finders contact the owner instantly while keeping the owner's phone number 100% private.
+- Stack: Laravel, MySQL
+- Web: https://avvisamionline.it/
+
+### VehicleVinInfo (2026)
+Free 17-digit VIN decoder paired with full vehicle history reports — accidents, title brands, recalls, theft records, ownership history, and auction listings, all in one report.
+- Stack: Laravel, MySQL
+- Web: https://www.vehiclevininfo.com/
+
+### UTC Clock (2021)
+World clock app for Android that keeps users synced to global time zones — built for frequent travelers and international teams.
+- Stack: Flutter, Dart
+- Android: https://play.google.com/store/apps/details?id=com.utc.clock.utc_clock
 
 ## Education
 - Masters in Computer Science — Sapienza University of Rome (2020–2023)
