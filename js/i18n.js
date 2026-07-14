@@ -10,8 +10,12 @@ const translations = {
     "nav.publications": "Publications",
     "nav.download": "Download PDF",
 
-    // About
+    // About / Hero
     "about.tagline": "I build robust web platforms and cross-platform mobile apps from the ground up. With 6+ years shipping production code in Laravel, Flutter, and Vue.js, I turn complex requirements into clean, scalable solutions.",
+    "hero.status": "Available for new projects",
+    "hero.role": "Full Stack Developer · Rome, Italy",
+    "hero.cta": "View my work",
+    "hero.scroll": "Scroll",
 
     // Skills
     "skills.title": "Skills",
@@ -23,6 +27,7 @@ const translations = {
 
     // Experience
     "exp.title": "Experience",
+    "exp.subtitle": "6+ years shipping production code",
     "exp.responsibilities": "Key contributions:",
     "exp.webProjects": "Web projects:",
     "exp.appProjects": "Mobile apps:",
@@ -51,6 +56,7 @@ const translations = {
 
     // Personal Projects
     "proj.title": "Personal Projects",
+    "proj.subtitle": "Shipped solo — idea to production",
     "proj.intro": "Side projects I designed, built, and shipped on my own — from idea to production.",
     "proj.link.live": "Live",
     "proj.tatafacile.desc": "A platform connecting Italian families with document-verified babysitters. Profile filtering, in-app messaging, video calls, and secure payments.",
@@ -60,6 +66,7 @@ const translations = {
 
     // Education
     "edu.title": "Education",
+    "edu.subtitle": "Academic background",
     "edu.sapienza": "Sapienza University Of Rome",
     "edu.masters": "MSc in Computer Science",
     "edu.sapienza.date": "Sep 2020 - Jul 2023",
@@ -69,6 +76,7 @@ const translations = {
 
     // Interests
     "int.title": "Interests",
+    "int.subtitle": "Beyond the code",
     "int.chess": "Chess & Strategy Games",
     "int.gaming": "PC & Console Gaming",
     "int.audiobooks": "Audiobooks & Podcasts",
@@ -77,6 +85,7 @@ const translations = {
 
     // Publications
     "pub.title": "Publications",
+    "pub.subtitle": "Research",
     "pub.face": "Face Recognition Comparative Analysis Using Different Machine Learning Approaches",
 
     // Footer
@@ -95,8 +104,12 @@ const translations = {
     "nav.publications": "Pubblicazioni",
     "nav.download": "Scarica PDF",
 
-    // About
+    // About / Hero
     "about.tagline": "Sviluppo piattaforme web robuste e app mobile cross-platform da zero. Con oltre 6 anni di esperienza in produzione con Laravel, Flutter e Vue.js, trasformo requisiti complessi in soluzioni pulite e scalabili.",
+    "hero.status": "Disponibile per nuovi progetti",
+    "hero.role": "Sviluppatore Full Stack · Roma, Italia",
+    "hero.cta": "Guarda i miei lavori",
+    "hero.scroll": "Scorri",
 
     // Skills
     "skills.title": "Competenze",
@@ -108,6 +121,7 @@ const translations = {
 
     // Experience
     "exp.title": "Esperienza",
+    "exp.subtitle": "Oltre 6 anni di codice in produzione",
     "exp.responsibilities": "Contributi principali:",
     "exp.webProjects": "Progetti web:",
     "exp.appProjects": "App mobile:",
@@ -136,6 +150,7 @@ const translations = {
 
     // Personal Projects
     "proj.title": "Progetti Personali",
+    "proj.subtitle": "Realizzati in autonomia \u2014 dall'idea alla produzione",
     "proj.intro": "Progetti personali che ho ideato, sviluppato e rilasciato in autonomia \u2014 dall'idea alla produzione.",
     "proj.link.live": "Sito",
     "proj.tatafacile.desc": "Piattaforma che connette le famiglie italiane con babysitter con documenti verificati. Filtri sui profili, messaggistica in-app, videochiamate e pagamenti sicuri.",
@@ -145,6 +160,7 @@ const translations = {
 
     // Education
     "edu.title": "Formazione",
+    "edu.subtitle": "Percorso accademico",
     "edu.sapienza": "Universit\u00e0 Sapienza di Roma",
     "edu.masters": "Laurea Magistrale in Informatica",
     "edu.sapienza.date": "Set 2020 - Lug 2023",
@@ -154,6 +170,7 @@ const translations = {
 
     // Interests
     "int.title": "Interessi",
+    "int.subtitle": "Oltre il codice",
     "int.chess": "Scacchi e Giochi di Strategia",
     "int.gaming": "Gaming su PC e Console",
     "int.audiobooks": "Audiolibri e Podcast",
@@ -162,6 +179,7 @@ const translations = {
 
     // Publications
     "pub.title": "Pubblicazioni",
+    "pub.subtitle": "Ricerca",
     "pub.face": "Face Recognition Comparative Analysis Using Different Machine Learning Approaches",
 
     // Footer

@@ -27,20 +27,20 @@ Rome, Italy
 - Integrating open-source and third-party tools into existing systems
 - Designing, coding, and maintaining dynamic websites and applications
 - Debugging, testing, and optimizing databases and applications
-- Web projects: shopper.mebius.it, mccustomers.mebius.it, voc.mebius.it, abf.mebius.it, inaabf.mebius.it
-- App projects: Mystery Client (Android & iOS)
+- Web projects: mccustomers.mebius.it, voc.mebius.it, abf.mebius.it, inaabf.mebius.it, app.best-seller.me
+- App projects: Mystery Client (Android & iOS), Best Seller (Android & iOS)
 
 ### Full Stack Developer — Innover Srl (January 2021 – April 2023)
 Rome, Italy
 - Developing dynamic websites and web applications for corporate, e-commerce, and educational clients
 - Coordinating with developer team on code modules, debugging, and testing
-- Web projects: lab.fincontinuo.com, over.oltreassicurazioni.it, bancadelfucino.innover.cloud, innover.cloud
-- App projects: Chiomha, Fincontinuo App, Permesso di Soggiorno
+- Web projects: lab.fincontinuo.com, over.oltreassicurazioni.it, bancadelfucino.innover.cloud, innover.cloud, fides.innover.cloud
+- App projects: Chiomha, Fincontinuo App
 
 ### Web Developer — Codian Soft (January 2018 – November 2020)
 Karachi, Pakistan
 - Attending team meetings, developing features, writing code in HTML/CSS, JavaScript, SQL, PHP
-- Web projects: newalkebulanschools.com, islamabadproperty.pk, gradeyourschool.at
+- Web projects: ilovetogocommando.com, gradeyourschool.at
 
 ## Personal Projects
 Side projects designed, built, and shipped solo — from idea to production.
