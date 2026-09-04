@@ -11,7 +11,7 @@ const translations = {
     "nav.download": "Download PDF",
 
     // About / Hero
-    "about.tagline": "I build robust web platforms and cross-platform mobile apps from the ground up. With 6+ years shipping production code in Laravel, Flutter, and Vue.js, I turn complex requirements into clean, scalable solutions.",
+    "about.tagline": "I build robust web platforms and cross-platform mobile apps from the ground up. With 8+ years shipping production code in Laravel, Flutter, and Vue.js, I turn complex requirements into clean, scalable solutions.",
     "hero.status": "Available for new projects",
     "hero.role": "Full Stack Developer · Rome, Italy",
     "hero.cta": "View my work",
@@ -27,7 +27,7 @@ const translations = {
 
     // Experience
     "exp.title": "Experience",
-    "exp.subtitle": "6+ years shipping production code",
+    "exp.subtitle": "8+ years shipping production code",
     "exp.responsibilities": "Key contributions:",
     "exp.webProjects": "Web projects:",
     "exp.appProjects": "Mobile apps:",
@@ -90,7 +90,27 @@ const translations = {
 
     // Footer
     "footer.copy": "\u00a9 2025 Husnain Ahmed. All rights reserved.",
-    "footer.tagline": "Built with Laravel, Flutter & curiosity."
+    "footer.tagline": "Built with Laravel, Flutter & curiosity.",
+
+    // Nav / chrome additions
+    "nav.contact": "Contact",
+    "palette.open": "jump to\u2026",
+    "lang.switch": "Switch to",
+
+    // Metrics
+    "metrics.years": "Years shipping",
+    "metrics.projects": "Projects delivered",
+    "metrics.apps": "Apps in stores",
+    "metrics.stacks": "Core stacks",
+
+    // Experience meta
+    "meta.role": "Role",
+    "meta.location": "Location",
+
+    // Contact
+    "contact.title": "Contact",
+    "contact.subtitle": "Open to new projects",
+    "contact.intro": "Got a project in mind, or a role you think fits? Email is fastest \u2014 I reply within a day."
   },
 
   it: {
@@ -105,7 +125,7 @@ const translations = {
     "nav.download": "Scarica PDF",
 
     // About / Hero
-    "about.tagline": "Sviluppo piattaforme web robuste e app mobile cross-platform da zero. Con oltre 6 anni di esperienza in produzione con Laravel, Flutter e Vue.js, trasformo requisiti complessi in soluzioni pulite e scalabili.",
+    "about.tagline": "Sviluppo piattaforme web robuste e app mobile cross-platform da zero. Con oltre 8 anni di esperienza in produzione con Laravel, Flutter e Vue.js, trasformo requisiti complessi in soluzioni pulite e scalabili.",
     "hero.status": "Disponibile per nuovi progetti",
     "hero.role": "Sviluppatore Full Stack · Roma, Italia",
     "hero.cta": "Guarda i miei lavori",
@@ -121,7 +141,7 @@ const translations = {
 
     // Experience
     "exp.title": "Esperienza",
-    "exp.subtitle": "Oltre 6 anni di codice in produzione",
+    "exp.subtitle": "Oltre 8 anni di codice in produzione",
     "exp.responsibilities": "Contributi principali:",
     "exp.webProjects": "Progetti web:",
     "exp.appProjects": "App mobile:",
@@ -184,7 +204,27 @@ const translations = {
 
     // Footer
     "footer.copy": "\u00a9 2025 Husnain Ahmed. Tutti i diritti riservati.",
-    "footer.tagline": "Realizzato con Laravel, Flutter e curiosit\u00e0."
+    "footer.tagline": "Realizzato con Laravel, Flutter e curiosit\u00e0.",
+
+    // Nav / chrome additions
+    "nav.contact": "Contatti",
+    "palette.open": "vai a\u2026",
+    "lang.switch": "Passa a",
+
+    // Metrics
+    "metrics.years": "Anni di esperienza",
+    "metrics.projects": "Progetti realizzati",
+    "metrics.apps": "App negli store",
+    "metrics.stacks": "Stack principali",
+
+    // Experience meta
+    "meta.role": "Ruolo",
+    "meta.location": "Sede",
+
+    // Contact
+    "contact.title": "Contatti",
+    "contact.subtitle": "Disponibile per nuovi progetti",
+    "contact.intro": "Hai un progetto in mente o una posizione adatta? La via pi\u00f9 rapida \u00e8 l\u2019email \u2014 rispondo entro un giorno."
   }
 };
 
@@ -204,21 +244,25 @@ const translations = {
       }
     }
 
-    var label = document.getElementById('langLabel');
-    if (label) {
-      label.textContent = lang === 'en' ? 'IT' : 'EN';
-    }
+    var next = lang === 'en' ? 'IT' : 'EN';
+    ['langLabel', 'langLabelMobile'].forEach(function (id) {
+      var label = document.getElementById(id);
+      if (label) label.textContent = next;
+    });
+    document.documentElement.setAttribute('lang', lang);
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     setLang(currentLang);
 
-    var toggle = document.getElementById('langToggle');
-    if (toggle) {
-      toggle.addEventListener('click', function (e) {
-        e.preventDefault();
-        setLang(currentLang === 'en' ? 'it' : 'en');
-      });
-    }
+    ['langToggle', 'langToggleMobile'].forEach(function (id) {
+      var toggle = document.getElementById(id);
+      if (toggle) {
+        toggle.addEventListener('click', function (e) {
+          e.preventDefault();
+          setLang(currentLang === 'en' ? 'it' : 'en');
+        });
+      }
+    });
   });
 })();

@@ -14,19 +14,18 @@
     <link rel="help" type="text/plain" href="https://husnainahmed61.github.io/llms.txt" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Preload critical assets for LCP -->
-    <link rel="preload" href="assets/img/pp4.png" as="image" />
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" as="style" />
     <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Husnain Ahmed - Full Stack Developer" />
-    <meta property="og:description" content="I build web platforms and mobile apps with Laravel, Flutter, Vue.js, and AWS. Full Stack Developer in Rome with 6+ years of experience." />
+    <meta property="og:description" content="I build web platforms and mobile apps with Laravel, Flutter, Vue.js, and AWS. Full Stack Developer in Rome with 8+ years of experience." />
     <meta property="og:url" content="https://husnainahmed61.github.io/" />
     <meta property="og:site_name" content="Husnain Ahmed" />
     <meta property="og:image" content="https://husnainahmed61.github.io/assets/img/pp4.png" />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Husnain Ahmed - Full Stack Developer" />
-    <meta name="twitter:description" content="I build web platforms and mobile apps with Laravel, Flutter, Vue.js, and AWS. Full Stack Developer in Rome with 6+ years of experience." />
+    <meta name="twitter:description" content="I build web platforms and mobile apps with Laravel, Flutter, Vue.js, and AWS. Full Stack Developer in Rome with 8+ years of experience." />
     <meta name="twitter:image" content="https://husnainahmed61.github.io/assets/img/pp4.png" />
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -87,335 +86,483 @@
       ]
     }
     </script>
-    <meta name="theme-color" content="#08080c" />
+    <meta name="theme-color" content="#020617" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <!-- Modern Carrd-inspired theme -->
-    <link href="css/modern.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Terminal / IDE theme -->
+    <link href="css/terminal.css" rel="stylesheet" />
 </head>
 <body id="page-top">
-<!-- Ambient background aura -->
-<div class="bg-aura" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to content</a>
 
-<!-- Floating glass nav -->
-<nav class="nav" id="topNav">
-    <a class="nav-brand" href="#page-top"><span class="dot">HA</span> Husnain Ahmed</a>
-    <div class="nav-links">
-        <a href="#about" data-i18n="nav.about">About</a>
-        <a href="#skills" data-i18n="nav.skills">Skills</a>
-        <a href="#experience" data-i18n="nav.experience">Experience</a>
-        <a href="#projects" data-i18n="nav.projects">Personal Projects</a>
-        <a href="#education" data-i18n="nav.education">Education</a>
-        <a href="#awards" data-i18n="nav.publications">Publications</a>
-    </div>
-    <div class="nav-actions">
-        <a class="btn-lang" href="#" id="langToggle"><i class="fa-solid fa-globe"></i> <span id="langLabel">IT</span></a>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-        </button>
-    </div>
-</nav>
+<!-- Exposed engineering grid -->
+<div class="grid-bg" aria-hidden="true"></div>
 
-<!-- Mobile menu -->
-<div class="mobile-menu" id="mobileMenu">
-    <a href="#about" data-i18n="nav.about">About</a>
-    <a href="#skills" data-i18n="nav.skills">Skills</a>
-    <a href="#experience" data-i18n="nav.experience">Experience</a>
-    <a href="#projects" data-i18n="nav.projects">Personal Projects</a>
-    <a href="#education" data-i18n="nav.education">Education</a>
-    <a href="#interests" data-i18n="nav.interests">Interests</a>
-    <a href="#awards" data-i18n="nav.publications">Publications</a>
-    <a href="assets/pdf/Resume-Husnain.pdf" target="_blank" download data-i18n="nav.download">Download PDF</a>
+<div class="shell">
+
+    <!-- ===================== LEFT RAIL (desktop) ===================== -->
+    <aside class="rail">
+        <a class="rail-id" href="#page-top" aria-label="Husnain Ahmed — home">
+            <span class="rail-mark"><img src="assets/img/pp4.png" alt="" width="38" height="38" /></span>
+            <span class="rail-id-text">
+                <span class="rail-name">Husnain Ahmed</span>
+                <span class="rail-role">full-stack dev</span>
+            </span>
+        </a>
+
+        <nav aria-label="Sections">
+            <div class="rail-label">Navigation</div>
+            <div class="rail-nav">
+                <a href="#about"><span class="idx">01</span> <span data-i18n="nav.about">About</span></a>
+                <a href="#skills"><span class="idx">02</span> <span data-i18n="nav.skills">Skills</span></a>
+                <a href="#experience"><span class="idx">03</span> <span data-i18n="nav.experience">Experience</span></a>
+                <a href="#projects"><span class="idx">04</span> <span data-i18n="nav.projects">Personal Projects</span></a>
+                <a href="#education"><span class="idx">05</span> <span data-i18n="nav.education">Education</span></a>
+                <a href="#interests"><span class="idx">06</span> <span data-i18n="nav.interests">Interests</span></a>
+                <a href="#awards"><span class="idx">07</span> <span data-i18n="nav.publications">Publications</span></a>
+                <a href="#contact"><span class="idx">08</span> <span data-i18n="nav.contact">Contact</span></a>
+            </div>
+        </nav>
+
+        <div class="rail-foot">
+            <button class="rail-kbd" id="paletteOpen" type="button">
+                <kbd>&#8984;</kbd><kbd>K</kbd> <span data-i18n="palette.open">jump to&hellip;</span>
+            </button>
+            <div class="rail-social">
+                <a href="https://github.com/husnainahmed61" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/husnain-ahmed-dev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:husnainahmed61@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <a class="rail-lang" href="#" id="langToggle" aria-label="Switch language">
+                <i class="fa-solid fa-globe" aria-hidden="true"></i>
+                <span data-i18n="lang.switch">Switch to</span>
+                <span id="langLabel">IT</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- ===================== CONTENT ===================== -->
+    <div class="content">
+
+        <!-- Mobile topbar -->
+        <header class="topbar">
+            <a class="rail-id" href="#page-top" aria-label="Husnain Ahmed — home">
+                <span class="rail-mark"><img src="assets/img/pp4.png" alt="" width="38" height="38" /></span>
+                <span class="rail-id-text">
+                    <span class="rail-name">Husnain Ahmed</span>
+                    <span class="rail-role">full-stack dev</span>
+                </span>
+            </a>
+            <div class="topbar-actions">
+                <button class="icon-btn" id="paletteOpenMobile" type="button" aria-label="Open command palette"><i class="fas fa-magnifying-glass"></i></button>
+                <a class="icon-btn" href="#" id="langToggleMobile" aria-label="Switch language"><span id="langLabelMobile">IT</span></a>
+                <button class="icon-btn" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </button>
+            </div>
+        </header>
+
+        <nav class="mobile-menu" id="mobileMenu" aria-label="Sections">
+            <a href="#about"><span class="idx">01</span> <span data-i18n="nav.about">About</span></a>
+            <a href="#skills"><span class="idx">02</span> <span data-i18n="nav.skills">Skills</span></a>
+            <a href="#experience"><span class="idx">03</span> <span data-i18n="nav.experience">Experience</span></a>
+            <a href="#projects"><span class="idx">04</span> <span data-i18n="nav.projects">Personal Projects</span></a>
+            <a href="#education"><span class="idx">05</span> <span data-i18n="nav.education">Education</span></a>
+            <a href="#interests"><span class="idx">06</span> <span data-i18n="nav.interests">Interests</span></a>
+            <a href="#awards"><span class="idx">07</span> <span data-i18n="nav.publications">Publications</span></a>
+            <a href="#contact"><span class="idx">08</span> <span data-i18n="nav.contact">Contact</span></a>
+        </nav>
+
+        <!-- ---------- 01 / Hero terminal ---------- -->
+        <header class="hero" id="about">
+            <div class="term" data-animate>
+                <div class="term-bar">
+                    <span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                    <span class="term-path"><b>husnain</b>@roma:<b>~</b>$</span>
+                    <span class="term-bar-right">
+                        <span class="term-status"><span class="pip" aria-hidden="true"></span> <span data-i18n="hero.status">Available for new projects</span></span>
+                    </span>
+                </div>
+
+                <div class="term-body">
+                    <p class="term-line"><span class="prompt">$</span> <span class="cmd">whoami</span></p>
+
+                    <h1 class="hero-name">Husnain Ahmed<span class="caret" aria-hidden="true"></span></h1>
+
+                    <p class="hero-role" data-i18n="hero.role">Full Stack Developer · Rome, Italy</p>
+
+                    <div class="code-block" aria-label="Tech stack">
+                        <span class="cm">// core stack &mdash; production, not tutorials</span><br />
+                        <span class="kw">const</span> <span class="var">stack</span> <span class="op">=</span> <span class="op">[</span><br />
+                        <span class="ind"><span class="str">"laravel"</span><span class="op">,</span> <span class="str">"flutter"</span><span class="op">,</span> <span class="str">"vue.js"</span><span class="op">,</span> <span class="str">"aws"</span></span><br />
+                        <span class="op">]</span><span class="op">;</span> <span class="cm">// shipping since <span class="num">2018</span></span>
+                    </div>
+
+                    <p class="hero-tagline" data-i18n="about.tagline">I build robust web platforms and cross-platform mobile apps from the ground up. With 8+ years shipping production code in Laravel, Flutter, and Vue.js, I turn complex requirements into clean, scalable solutions.</p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="assets/pdf/Resume-Husnain.pdf" target="_blank" download><i class="fas fa-download" aria-hidden="true"></i> <span data-i18n="nav.download">Download PDF</span></a>
+                        <a class="btn btn-ghost" href="#projects"><i class="fas fa-terminal" aria-hidden="true"></i> <span data-i18n="hero.cta">View my work</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <dl class="metrics" data-animate>
+                <div class="metric">
+                    <dt data-i18n="metrics.years">Years shipping</dt>
+                    <dd>08<span class="unit">+</span></dd>
+                </div>
+                <div class="metric">
+                    <dt data-i18n="metrics.projects">Projects delivered</dt>
+                    <dd>20<span class="unit">+</span></dd>
+                </div>
+                <div class="metric">
+                    <dt data-i18n="metrics.apps">Apps in stores</dt>
+                    <dd>06</dd>
+                </div>
+                <div class="metric">
+                    <dt data-i18n="metrics.stacks">Core stacks</dt>
+                    <dd>04</dd>
+                </div>
+            </dl>
+        </header>
+
+        <main id="main">
+
+        <!-- ---------- 02 / Skills ---------- -->
+        <section id="skills">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">02</span> <span data-i18n="skills.subtitle">Languages, Frameworks &amp; Tools</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="skills.title">Skills</h2>
+            </div>
+            <div class="skill-rows" data-animate>
+                <div class="skill-row">
+                    <div class="skill-key" data-i18n="skills.backend">Backend</div>
+                    <ul class="skill-pills">
+                        <li>PHP</li><li>Laravel</li><li>Livewire</li><li>MySQL</li><li>Firebase</li><li>REST APIs</li><li>SOAP APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-key" data-i18n="skills.frontend">Frontend</div>
+                    <ul class="skill-pills">
+                        <li>JavaScript</li><li>Vue.js</li><li>jQuery</li><li>HTML</li><li>CSS</li><li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-key" data-i18n="skills.mobile">Mobile</div>
+                    <ul class="skill-pills">
+                        <li>Flutter</li><li>Dart</li><li>Android</li><li>iOS</li>
+                    </ul>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-key" data-i18n="skills.devops">DevOps &amp; Tools</div>
+                    <ul class="skill-pills">
+                        <li>AWS</li><li>Linux</li><li>Nginx</li><li>Apache</li><li>Git</li><li>PhpStorm</li><li>Postman</li><li>Jira</li><li>Trello</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- 03 / Experience ---------- -->
+        <section id="experience">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">03</span> <span data-i18n="exp.subtitle">8+ years shipping production code</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="exp.title">Experience</h2>
+            </div>
+            <div class="timeline" data-animate>
+                <!-- Mebius -->
+                <article class="exp">
+                    <div class="exp-top">
+                        <h3>Mebius S.r.l</h3>
+                        <span class="exp-date" data-i18n="exp.mebius.date">May 2023 - Present</span>
+                    </div>
+                    <dl class="exp-meta">
+                        <dt data-i18n="meta.role">Role</dt>
+                        <dd class="hl" data-i18n="exp.mebius.role">Full Stack Developer</dd>
+                        <dt data-i18n="meta.location">Location</dt>
+                        <dd data-i18n="exp.mebius.location">Rome, Italy</dd>
+                    </dl>
+                    <div class="exp-label" data-i18n="exp.responsibilities">Key contributions:</div>
+                    <ul class="bullets">
+                        <li data-i18n="exp.mebius.r1">Integrated open-source and third-party tools into existing platforms, reducing development time while maintaining production-grade quality.</li>
+                        <li data-i18n="exp.mebius.r2">Architected and shipped full-stack web applications and mobile apps for corporate, education, and e-commerce clients using Laravel and Flutter.</li>
+                        <li data-i18n="exp.mebius.r3">Collaborated with a cross-functional team to deliver clean, well-tested code and resolve critical bugs across multiple concurrent projects.</li>
+                        <li data-i18n="exp.mebius.r4">Optimized MySQL databases and implemented automated testing pipelines to improve application reliability.</li>
+                    </ul>
+                    <div class="exp-label" data-i18n="exp.webProjects">Web projects:</div>
+                    <div class="link-chips">
+                        <a href="https://mccustomers.mebius.it" target="_blank" rel="noopener">mccustomers.mebius.it</a>
+                        <a href="https://voc.mebius.it" target="_blank" rel="noopener">voc.mebius.it</a>
+                        <a href="https://abf.mebius.it" target="_blank" rel="noopener">abf.mebius.it</a>
+                        <a href="https://inaabf.mebius.it" target="_blank" rel="noopener">inaabf.mebius.it</a>
+                        <a href="https://app.best-seller.me" target="_blank" rel="noopener">app.best-seller.me</a>
+                    </div>
+                    <div class="exp-label" data-i18n="exp.appProjects">Mobile apps:</div>
+                    <div class="link-chips">
+                        <a href="https://play.google.com/store/apps/details?id=it.mebius.mysteryclient" target="_blank" rel="noopener">Mystery Client &mdash; Android</a>
+                        <a href="https://apps.apple.com/it/app/mystery-client/id1380166821" target="_blank" rel="noopener">Mystery Client &mdash; iOS</a>
+                        <a href="https://play.google.com/store/apps/details?id=app.bestseller.me" target="_blank" rel="noopener">Best Seller &mdash; Android</a>
+                        <a href="https://apps.apple.com/us/app/best-seller/id6779247547" target="_blank" rel="noopener">Best Seller &mdash; iOS</a>
+                    </div>
+                </article>
+                <!-- Innover -->
+                <article class="exp">
+                    <div class="exp-top">
+                        <h3>Innover Srl</h3>
+                        <span class="exp-date" data-i18n="exp.innover.date">Jan 2021 - Apr 2023</span>
+                    </div>
+                    <dl class="exp-meta">
+                        <dt data-i18n="meta.role">Role</dt>
+                        <dd class="hl" data-i18n="exp.innover.role">Full Stack Developer</dd>
+                        <dt data-i18n="meta.location">Location</dt>
+                        <dd data-i18n="exp.innover.location">Rome, Italy</dd>
+                    </dl>
+                    <div class="exp-label" data-i18n="exp.responsibilities">Key contributions:</div>
+                    <ul class="bullets">
+                        <li data-i18n="exp.innover.r1">Built and maintained web applications for financial services, insurance, and education clients, handling the full lifecycle from database design to deployment.</li>
+                        <li data-i18n="exp.innover.r2">Developed reusable Laravel modules and REST APIs consumed by both web dashboards and Flutter mobile apps.</li>
+                        <li data-i18n="exp.innover.r3">Owned end-to-end QA for multiple projects &mdash; writing tests, profiling queries, and monitoring production performance.</li>
+                    </ul>
+                    <div class="exp-label" data-i18n="exp.webProjects">Web projects:</div>
+                    <div class="link-chips">
+                        <a href="https://lab.fincontinuo.com/" target="_blank" rel="noopener">lab.fincontinuo.com</a>
+                        <a href="https://over.oltreassicurazioni.it/" target="_blank" rel="noopener">over.oltreassicurazioni.it</a>
+                        <a href="https://bancadelfucino.innover.cloud/" target="_blank" rel="noopener">bancadelfucino.innover.cloud</a>
+                        <a href="http://innover.cloud/" target="_blank" rel="noopener">innover.cloud</a>
+                        <a href="https://fides.innover.cloud/" target="_blank" rel="noopener">fides.innover.cloud</a>
+                    </div>
+                    <div class="exp-label" data-i18n="exp.appProjects">Mobile apps:</div>
+                    <div class="link-chips">
+                        <a href="https://play.google.com/store/apps/details?id=com.chiomha2" target="_blank" rel="noopener">Chiomha</a>
+                        <a href="https://play.google.com/store/apps/details?id=cloud.innover.fincontinuo" target="_blank" rel="noopener">Fincontinuo App</a>
+                    </div>
+                </article>
+                <!-- Codian -->
+                <article class="exp">
+                    <div class="exp-top">
+                        <h3>Codian Soft</h3>
+                        <span class="exp-date" data-i18n="exp.codian.date">Jan 2018 - Nov 2020</span>
+                    </div>
+                    <dl class="exp-meta">
+                        <dt data-i18n="meta.role">Role</dt>
+                        <dd class="hl" data-i18n="exp.codian.role">Web Developer</dd>
+                        <dt data-i18n="meta.location">Location</dt>
+                        <dd data-i18n="exp.codian.location">Karachi, Pakistan</dd>
+                    </dl>
+                    <div class="exp-label" data-i18n="exp.responsibilities">Key contributions:</div>
+                    <ul class="bullets">
+                        <li data-i18n="exp.codian.r1">Translated client requirements into technical specs and delivered features on schedule across 4 concurrent web projects.</li>
+                        <li data-i18n="exp.codian.r2">Shipped new features for e-commerce and education platforms using PHP, JavaScript, and MySQL, serving thousands of daily users.</li>
+                        <li data-i18n="exp.codian.r3">Built responsive front-ends with HTML/CSS and JavaScript, and wrote server-side modules with PHP and SQL.</li>
+                    </ul>
+                    <div class="exp-label" data-i18n="exp.webProjects">Web projects:</div>
+                    <div class="link-chips">
+                        <a href="https://ilovetogocommando.com/" target="_blank" rel="noopener">ilovetogocommando.com</a>
+                        <a href="https://gradeyourschool.at/" target="_blank" rel="noopener">gradeyourschool.at</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ---------- 04 / Personal Projects ---------- -->
+        <section id="projects">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">04</span> <span data-i18n="proj.subtitle">Shipped solo &mdash; idea to production</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="proj.title">Personal Projects</h2>
+                <p class="lead-sm" data-i18n="proj.intro">Side projects I designed, built, and shipped on my own &mdash; from idea to production.</p>
+            </div>
+            <div class="projects-grid" data-animate>
+                <!-- tatafacile -->
+                <article class="project">
+                    <header class="project-head">
+                        <h3>TataFacile</h3>
+                        <span class="project-year">2026</span>
+                    </header>
+                    <p data-i18n="proj.tatafacile.desc">A platform connecting Italian families with document-verified babysitters. Profile filtering, in-app messaging, video calls, and secure payments.</p>
+                    <ul class="project-tech"><li>Laravel</li><li>Flutter</li><li>MySQL</li></ul>
+                    <div class="project-links">
+                        <a href="https://tatafacile.eu/" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> <span data-i18n="proj.link.live">Live</span></a>
+                        <a href="https://apps.apple.com/gb/app/tatafacile/id6759669595" target="_blank" rel="noopener"><i class="fab fa-app-store-ios" aria-hidden="true"></i> iOS</a>
+                        <a href="https://play.google.com/store/apps/details?id=tatafacile.eu" target="_blank" rel="noopener"><i class="fab fa-google-play" aria-hidden="true"></i> Android</a>
+                    </div>
+                </article>
+                <!-- avvisamionline -->
+                <article class="project">
+                    <header class="project-head">
+                        <h3>AvvisamiOnline</h3>
+                        <span class="project-year">2026</span>
+                    </header>
+                    <p data-i18n="proj.avvisami.desc">Never lose your stuff again. A smart QR sticker that lets finders contact you instantly while keeping your phone number 100% private.</p>
+                    <ul class="project-tech"><li>Laravel</li><li>MySQL</li></ul>
+                    <div class="project-links">
+                        <a href="https://avvisamionline.it/" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> <span data-i18n="proj.link.live">Live</span></a>
+                    </div>
+                </article>
+                <!-- vehiclevininfo -->
+                <article class="project">
+                    <header class="project-head">
+                        <h3>VehicleVinInfo</h3>
+                        <span class="project-year">2026</span>
+                    </header>
+                    <p data-i18n="proj.vin.desc">Free 17-digit VIN decoder paired with full vehicle history reports &mdash; accidents, title brands, recalls, theft records, ownership history, and auction listings, all in one report.</p>
+                    <ul class="project-tech"><li>Laravel</li><li>MySQL</li></ul>
+                    <div class="project-links">
+                        <a href="https://www.vehiclevininfo.com/" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> <span data-i18n="proj.link.live">Live</span></a>
+                    </div>
+                </article>
+                <!-- UTC Clock -->
+                <article class="project">
+                    <header class="project-head">
+                        <h3>UTC Clock</h3>
+                        <span class="project-year">2021</span>
+                    </header>
+                    <p data-i18n="proj.utc.desc">A world clock app for Android that keeps you synced to global time zones &mdash; built for frequent travelers and international teams who need accurate, reliable timekeeping.</p>
+                    <ul class="project-tech"><li>Flutter</li><li>Dart</li></ul>
+                    <div class="project-links">
+                        <a href="https://play.google.com/store/apps/details?id=com.utc.clock.utc_clock" target="_blank" rel="noopener"><i class="fab fa-google-play" aria-hidden="true"></i> Android</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ---------- 05 / Education ---------- -->
+        <section id="education">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">05</span> <span data-i18n="edu.subtitle">Academic background</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="edu.title">Education</h2>
+            </div>
+            <div class="edu-grid" data-animate>
+                <div class="edu">
+                    <div class="edu-info">
+                        <h3 data-i18n="edu.sapienza">Sapienza University Of Rome</h3>
+                        <div class="subheading" data-i18n="edu.masters">MSc in Computer Science</div>
+                    </div>
+                    <span class="edu-date" data-i18n="edu.sapienza.date">Sep 2020 - Jul 2023</span>
+                </div>
+                <div class="edu">
+                    <div class="edu-info">
+                        <h3 data-i18n="edu.quest">Quaid e Awam University Of Science And Technology</h3>
+                        <div class="subheading" data-i18n="edu.bachelors">BSc in Computer Science</div>
+                    </div>
+                    <span class="edu-date" data-i18n="edu.quest.date">Jan 2014 - Jan 2018</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- 06 / Interests ---------- -->
+        <section id="interests">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">06</span> <span data-i18n="int.subtitle">Beyond the code</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="int.title">Interests</h2>
+            </div>
+            <ul class="interests-grid" data-animate>
+                <li><i class="fas fa-chess-knight" aria-hidden="true"></i> <span data-i18n="int.chess">Chess &amp; Strategy Games</span></li>
+                <li><i class="fas fa-gamepad" aria-hidden="true"></i> <span data-i18n="int.gaming">PC &amp; Console Gaming</span></li>
+                <li><i class="fas fa-headphones" aria-hidden="true"></i> <span data-i18n="int.audiobooks">Audiobooks &amp; Podcasts</span></li>
+                <li><i class="fas fa-map-marked-alt" aria-hidden="true"></i> <span data-i18n="int.places">Travel &amp; New Places</span></li>
+                <li><i class="fas fa-globe" aria-hidden="true"></i> <span data-i18n="int.cultures">Culture &amp; Languages</span></li>
+            </ul>
+        </section>
+
+        <!-- ---------- 07 / Publications ---------- -->
+        <section id="awards">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">07</span> <span data-i18n="pub.subtitle">Research</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="pub.title">Publications</h2>
+            </div>
+            <div class="pub" data-animate>
+                <i class="fas fa-file-lines" aria-hidden="true"></i>
+                <a href="http://www.astrj.com/Face-Recognition-Comparative-Analysis-Using-Different-Machine-Learning-Approaches,132611,0,2.html" target="_blank" rel="noopener" data-i18n="pub.face">Face Recognition Comparative Analysis Using Different Machine Learning Approaches</a>
+            </div>
+        </section>
+
+        <!-- ---------- 08 / Contact ---------- -->
+        <section id="contact">
+            <div class="section-head" data-animate>
+                <div class="section-index"><span class="num">08</span> <span data-i18n="contact.subtitle">Open to new projects</span> <span class="bar" aria-hidden="true"></span></div>
+                <h2 data-i18n="contact.title">Contact</h2>
+                <p class="lead-sm" data-i18n="contact.intro">Got a project in mind, or a role you think fits? Email is fastest &mdash; I reply within a day.</p>
+            </div>
+            <div class="contact-grid" data-animate>
+                <a class="contact-item" href="mailto:husnainahmed61@gmail.com">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <span class="ci-body">
+                        <span class="ci-key">Email</span>
+                        <span class="ci-val">husnainahmed61@gmail.com</span>
+                    </span>
+                </a>
+                <a class="contact-item" href="tel:+393474729427">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <span class="ci-body">
+                        <span class="ci-key">Phone</span>
+                        <span class="ci-val">+39 347 472 9427</span>
+                    </span>
+                </a>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot" aria-hidden="true"></i>
+                    <span class="ci-body">
+                        <span class="ci-key">Location</span>
+                        <span class="ci-val">Roma, Italy</span>
+                    </span>
+                </div>
+                <a class="contact-item" href="https://github.com/husnainahmed61" target="_blank" rel="noopener">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <span class="ci-body">
+                        <span class="ci-key">GitHub</span>
+                        <span class="ci-val">@husnainahmed61</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p class="footer-copy" data-i18n="footer.copy">&copy; 2025 Husnain Ahmed. All rights reserved.</p>
+            <p class="footer-tagline" data-i18n="footer.tagline">Built with Laravel, Flutter &amp; curiosity.</p>
+        </footer>
+
+    </div><!-- /.content -->
+</div><!-- /.shell -->
+
+<!-- ===================== Command palette ===================== -->
+<div class="palette" id="palette" role="dialog" aria-modal="true" aria-label="Command palette">
+    <div class="palette-panel">
+        <div class="palette-input-wrap">
+            <span class="prompt" aria-hidden="true">&gt;</span>
+            <input id="paletteInput" type="text" placeholder="jump to a section or action&hellip;" autocomplete="off" spellcheck="false" aria-label="Search sections and actions" role="combobox" aria-expanded="true" aria-controls="paletteList" aria-autocomplete="list" />
+        </div>
+        <ul class="palette-list" id="paletteList" role="listbox" aria-label="Results"></ul>
+        <div class="palette-foot">
+            <span><kbd>&uarr;</kbd><kbd>&darr;</kbd> navigate</span>
+            <span><kbd>&crarr;</kbd> select</span>
+            <span><kbd>esc</kbd> close</span>
+        </div>
+    </div>
 </div>
 
-<!-- Hero / About -->
-<header class="hero" id="about">
-    <div class="shell" data-animate>
-        <div class="hero-avatar">
-            <span class="ring" aria-hidden="true"></span>
-            <img src="assets/img/pp4.png" alt="Husnain Ahmed" width="128" height="128" />
-        </div>
-        <span class="status-badge"><span class="pip"></span> <span data-i18n="hero.status">Available for new projects</span></span>
-        <h1>Husnain <span class="grad">Ahmed</span></h1>
-        <p class="role" data-i18n="hero.role">Full Stack Developer · Rome, Italy</p>
-        <p class="tagline" data-i18n="about.tagline">I build robust web platforms and cross-platform mobile apps from the ground up. With 6+ years shipping production code in Laravel, Flutter, and Vue.js, I turn complex requirements into clean, scalable solutions.</p>
-
-        <div class="contact-chips">
-            <span class="contact-chip"><i class="fas fa-map-marker-alt"></i> Roma, Italy</span>
-            <a href="tel:+393474729427" class="contact-chip"><i class="fas fa-phone"></i> +39 347 472 9427</a>
-            <a href="mailto:husnainahmed61@gmail.com" class="contact-chip"><i class="fas fa-envelope"></i> husnainahmed61@gmail.com</a>
-        </div>
-
-        <div class="hero-actions">
-            <a class="btn btn-primary" href="assets/pdf/Resume-Husnain.pdf" target="_blank" download><i class="fas fa-download"></i> <span data-i18n="nav.download">Download PDF</span></a>
-            <a class="btn btn-ghost" href="#projects" data-i18n="hero.cta">View my work</a>
-        </div>
-
-        <div class="social">
-            <a href="https://www.linkedin.com/in/husnain-ahmed-dev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/husnainahmed61" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.facebook.com/hasnain.ahmed4600" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        </div>
-
-        <a class="scroll-hint" href="#skills" aria-label="Scroll down">
-            <span class="mouse" aria-hidden="true"></span>
-            <span data-i18n="hero.scroll">Scroll</span>
-        </a>
-    </div>
-</header>
-
-<main class="shell">
-    <!-- Skills -->
-    <section id="skills">
-        <div class="section-head" data-animate>
-            <span class="eyebrow" data-i18n="skills.subtitle">Languages, Frameworks & Tools</span>
-            <h2 data-i18n="skills.title">Skills</h2>
-        </div>
-        <div data-animate>
-            <div class="skill-group">
-                <h3 data-i18n="skills.backend">Backend</h3>
-                <ul class="skill-pills">
-                    <li>PHP</li><li>Laravel</li><li>Livewire</li><li>MySQL</li><li>Firebase</li><li>REST APIs</li><li>SOAP APIs</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h3 data-i18n="skills.frontend">Frontend</h3>
-                <ul class="skill-pills">
-                    <li>JavaScript</li><li>Vue.js</li><li>jQuery</li><li>HTML</li><li>CSS</li><li>Bootstrap</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h3 data-i18n="skills.mobile">Mobile</h3>
-                <ul class="skill-pills">
-                    <li>Flutter</li><li>Dart</li><li>Android</li><li>iOS</li>
-                </ul>
-            </div>
-            <div class="skill-group">
-                <h3 data-i18n="skills.devops">DevOps & Tools</h3>
-                <ul class="skill-pills">
-                    <li>AWS</li><li>Linux</li><li>Nginx</li><li>Apache</li><li>Git</li><li>PhpStorm</li><li>Postman</li><li>Jira</li><li>Trello</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience">
-        <div class="section-head" data-animate>
-            <span class="eyebrow" data-i18n="exp.subtitle">6+ years shipping production code</span>
-            <h2 data-i18n="exp.title">Experience</h2>
-        </div>
-        <div class="timeline" data-animate>
-            <!-- Mebius -->
-            <article class="exp">
-                <div class="exp-top">
-                    <h3 data-i18n="exp.mebius.role">Full Stack Developer</h3>
-                    <span class="exp-date" data-i18n="exp.mebius.date">May 2023 - Present</span>
-                </div>
-                <div class="exp-company">Mebius S.r.l</div>
-                <div class="exp-loc" data-i18n="exp.mebius.location">Rome, Italy</div>
-                <div class="exp-label" data-i18n="exp.responsibilities">Key contributions:</div>
-                <ul class="bullets">
-                    <li data-i18n="exp.mebius.r1">Integrated open-source and third-party tools into existing platforms, reducing development time while maintaining production-grade quality.</li>
-                    <li data-i18n="exp.mebius.r2">Architected and shipped full-stack web applications and mobile apps for corporate, education, and e-commerce clients using Laravel and Flutter.</li>
-                    <li data-i18n="exp.mebius.r3">Collaborated with a cross-functional team to deliver clean, well-tested code and resolve critical bugs across multiple concurrent projects.</li>
-                    <li data-i18n="exp.mebius.r4">Optimized MySQL databases and implemented automated testing pipelines to improve application reliability.</li>
-                </ul>
-                <div class="exp-label" data-i18n="exp.webProjects">Web projects:</div>
-                <div class="link-chips">
-                    <a href="https://mccustomers.mebius.it" target="_blank" rel="noopener">mccustomers.mebius.it</a>
-                    <a href="https://voc.mebius.it" target="_blank" rel="noopener">voc.mebius.it</a>
-                    <a href="https://abf.mebius.it" target="_blank" rel="noopener">abf.mebius.it</a>
-                    <a href="https://inaabf.mebius.it" target="_blank" rel="noopener">inaabf.mebius.it</a>
-                    <a href="https://app.best-seller.me" target="_blank" rel="noopener">app.best-seller.me</a>
-                </div>
-                <div class="exp-label" data-i18n="exp.appProjects">Mobile apps:</div>
-                <div class="link-chips">
-                    <a href="https://play.google.com/store/apps/details?id=it.mebius.mysteryclient" target="_blank" rel="noopener">Mystery Client — Android</a>
-                    <a href="https://apps.apple.com/it/app/mystery-client/id1380166821" target="_blank" rel="noopener">Mystery Client — iOS</a>
-                    <a href="https://play.google.com/store/apps/details?id=app.bestseller.me" target="_blank" rel="noopener">Best Seller — Android</a>
-                    <a href="https://apps.apple.com/us/app/best-seller/id6779247547" target="_blank" rel="noopener">Best Seller — iOS</a>
-                </div>
-            </article>
-            <!-- Innover -->
-            <article class="exp">
-                <div class="exp-top">
-                    <h3 data-i18n="exp.innover.role">Full Stack Developer</h3>
-                    <span class="exp-date" data-i18n="exp.innover.date">Jan 2021 - Apr 2023</span>
-                </div>
-                <div class="exp-company">Innover Srl</div>
-                <div class="exp-loc" data-i18n="exp.innover.location">Rome, Italy</div>
-                <div class="exp-label" data-i18n="exp.responsibilities">Key contributions:</div>
-                <ul class="bullets">
-                    <li data-i18n="exp.innover.r1">Built and maintained web applications for financial services, insurance, and education clients, handling the full lifecycle from database design to deployment.</li>
-                    <li data-i18n="exp.innover.r2">Developed reusable Laravel modules and REST APIs consumed by both web dashboards and Flutter mobile apps.</li>
-                    <li data-i18n="exp.innover.r3">Owned end-to-end QA for multiple projects — writing tests, profiling queries, and monitoring production performance.</li>
-                </ul>
-                <div class="exp-label" data-i18n="exp.webProjects">Web projects:</div>
-                <div class="link-chips">
-                    <a href="https://lab.fincontinuo.com/" target="_blank" rel="noopener">lab.fincontinuo.com</a>
-                    <a href="https://over.oltreassicurazioni.it/" target="_blank" rel="noopener">over.oltreassicurazioni.it</a>
-                    <a href="https://bancadelfucino.innover.cloud/" target="_blank" rel="noopener">bancadelfucino.innover.cloud</a>
-                    <a href="http://innover.cloud/" target="_blank" rel="noopener">innover.cloud</a>
-                    <a href="https://fides.innover.cloud/" target="_blank" rel="noopener">fides.innover.cloud</a>
-                </div>
-                <div class="exp-label" data-i18n="exp.appProjects">Mobile apps:</div>
-                <div class="link-chips">
-                    <a href="https://play.google.com/store/apps/details?id=com.chiomha2" target="_blank" rel="noopener">Chiomha</a>
-                    <a href="https://play.google.com/store/apps/details?id=cloud.innover.fincontinuo" target="_blank" rel="noopener">Fincontinuo App</a>
-                </div>
-            </article>
-            <!-- Codian -->
-            <article class="exp">
-                <div class="exp-top">
-                    <h3 data-i18n="exp.codian.role">Web Developer</h3>
-                    <span class="exp-date" data-i18n="exp.codian.date">Jan 2018 - Nov 2020</span>
-                </div>
-                <div class="exp-company">Codian Soft</div>
-                <div class="exp-loc" data-i18n="exp.codian.location">Karachi, Pakistan</div>
-                <div class="exp-label" data-i18n="exp.responsibilities">Key contributions:</div>
-                <ul class="bullets">
-                    <li data-i18n="exp.codian.r1">Translated client requirements into technical specs and delivered features on schedule across 4 concurrent web projects.</li>
-                    <li data-i18n="exp.codian.r2">Shipped new features for e-commerce and education platforms using PHP, JavaScript, and MySQL, serving thousands of daily users.</li>
-                    <li data-i18n="exp.codian.r3">Built responsive front-ends with HTML/CSS and JavaScript, and wrote server-side modules with PHP and SQL.</li>
-                </ul>
-                <div class="exp-label" data-i18n="exp.webProjects">Web projects:</div>
-                <div class="link-chips">
-                    <a href="https://ilovetogocommando.com/" target="_blank" rel="noopener">ilovetogocommando.com</a>
-                    <a href="https://gradeyourschool.at/" target="_blank" rel="noopener">gradeyourschool.at</a>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- Personal Projects -->
-    <section id="projects">
-        <div class="section-head" data-animate>
-            <span class="eyebrow" data-i18n="proj.subtitle">Shipped solo — idea to production</span>
-            <h2 data-i18n="proj.title">Personal Projects</h2>
-            <p class="lead-sm" data-i18n="proj.intro">Side projects I designed, built, and shipped on my own — from idea to production.</p>
-        </div>
-        <div class="projects-grid" data-animate>
-            <!-- tatafacile -->
-            <article class="project">
-                <header class="project-head">
-                    <h3>TataFacile</h3>
-                    <span class="project-year">2026</span>
-                </header>
-                <p data-i18n="proj.tatafacile.desc">A platform connecting Italian families with document-verified babysitters. Profile filtering, in-app messaging, video calls, and secure payments.</p>
-                <ul class="project-tech"><li>Laravel</li><li>Flutter</li><li>MySQL</li></ul>
-                <div class="project-links">
-                    <a href="https://tatafacile.eu/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> <span data-i18n="proj.link.live">Live</span></a>
-                    <a href="https://apps.apple.com/gb/app/tatafacile/id6759669595" target="_blank" rel="noopener"><i class="fab fa-app-store-ios"></i> iOS</a>
-                    <a href="https://play.google.com/store/apps/details?id=tatafacile.eu" target="_blank" rel="noopener"><i class="fab fa-google-play"></i> Android</a>
-                </div>
-            </article>
-            <!-- avvisamionline -->
-            <article class="project">
-                <header class="project-head">
-                    <h3>AvvisamiOnline</h3>
-                    <span class="project-year">2026</span>
-                </header>
-                <p data-i18n="proj.avvisami.desc">Never lose your stuff again. A smart QR sticker that lets finders contact you instantly while keeping your phone number 100% private.</p>
-                <ul class="project-tech"><li>Laravel</li><li>MySQL</li></ul>
-                <div class="project-links">
-                    <a href="https://avvisamionline.it/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> <span data-i18n="proj.link.live">Live</span></a>
-                </div>
-            </article>
-            <!-- vehiclevininfo -->
-            <article class="project">
-                <header class="project-head">
-                    <h3>VehicleVinInfo</h3>
-                    <span class="project-year">2026</span>
-                </header>
-                <p data-i18n="proj.vin.desc">Free 17-digit VIN decoder paired with full vehicle history reports — accidents, title brands, recalls, theft records, ownership history, and auction listings, all in one report.</p>
-                <ul class="project-tech"><li>Laravel</li><li>MySQL</li></ul>
-                <div class="project-links">
-                    <a href="https://www.vehiclevininfo.com/" target="_blank" rel="noopener"><i class="fas fa-globe"></i> <span data-i18n="proj.link.live">Live</span></a>
-                </div>
-            </article>
-            <!-- UTC Clock -->
-            <article class="project">
-                <header class="project-head">
-                    <h3>UTC Clock</h3>
-                    <span class="project-year">2021</span>
-                </header>
-                <p data-i18n="proj.utc.desc">A world clock app for Android that keeps you synced to global time zones — built for frequent travelers and international teams who need accurate, reliable timekeeping.</p>
-                <ul class="project-tech"><li>Flutter</li><li>Dart</li></ul>
-                <div class="project-links">
-                    <a href="https://play.google.com/store/apps/details?id=com.utc.clock.utc_clock" target="_blank" rel="noopener"><i class="fab fa-google-play"></i> Android</a>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section id="education">
-        <div class="section-head" data-animate>
-            <span class="eyebrow" data-i18n="edu.subtitle">Academic background</span>
-            <h2 data-i18n="edu.title">Education</h2>
-        </div>
-        <div class="edu-grid" data-animate>
-            <div class="edu">
-                <div class="edu-info">
-                    <h3 data-i18n="edu.sapienza">Sapienza University Of Rome</h3>
-                    <div class="subheading" data-i18n="edu.masters">MSc in Computer Science</div>
-                </div>
-                <span class="edu-date" data-i18n="edu.sapienza.date">Sep 2020 - Jul 2023</span>
-            </div>
-            <div class="edu">
-                <div class="edu-info">
-                    <h3 data-i18n="edu.quest">Quaid e Awam University Of Science And Technology</h3>
-                    <div class="subheading" data-i18n="edu.bachelors">BSc in Computer Science</div>
-                </div>
-                <span class="edu-date" data-i18n="edu.quest.date">Jan 2014 - Jan 2018</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Interests -->
-    <section id="interests">
-        <div class="section-head" data-animate>
-            <span class="eyebrow" data-i18n="int.subtitle">Beyond the code</span>
-            <h2 data-i18n="int.title">Interests</h2>
-        </div>
-        <ul class="interests-grid" data-animate>
-            <li><i class="fas fa-chess-knight"></i> <span data-i18n="int.chess">Chess & Strategy Games</span></li>
-            <li><i class="fas fa-gamepad"></i> <span data-i18n="int.gaming">PC & Console Gaming</span></li>
-            <li><i class="fas fa-headphones"></i> <span data-i18n="int.audiobooks">Audiobooks & Podcasts</span></li>
-            <li><i class="fas fa-map-marked-alt"></i> <span data-i18n="int.places">Travel & New Places</span></li>
-            <li><i class="fas fa-globe"></i> <span data-i18n="int.cultures">Culture & Languages</span></li>
-        </ul>
-    </section>
-
-    <!-- Publications -->
-    <section id="awards">
-        <div class="section-head" data-animate>
-            <span class="eyebrow" data-i18n="pub.subtitle">Research</span>
-            <h2 data-i18n="pub.title">Publications</h2>
-        </div>
-        <div class="pub" data-animate>
-            <i class="fas fa-file-lines"></i>
-            <a href="http://www.astrj.com/Face-Recognition-Comparative-Analysis-Using-Different-Machine-Learning-Approaches,132611,0,2.html" target="_blank" rel="noopener" data-i18n="pub.face">Face Recognition Comparative Analysis Using Different Machine Learning Approaches</a>
-        </div>
-    </section>
-</main>
-
-<!-- Footer -->
-<footer class="site-footer">
-    <p class="footer-copy" data-i18n="footer.copy">&copy; 2025 Husnain Ahmed. All rights reserved.</p>
-    <p class="footer-tagline" data-i18n="footer.tagline">Built with Laravel, Flutter & curiosity.</p>
-</footer>
+<!-- ===================== IDE status bar ===================== -->
+<div class="statusbar" aria-hidden="true">
+    <span class="sb-branch"><i class="fas fa-code-branch"></i> main</span>
+    <span class="sb-hide-sm"><b>husnain-ahmed</b>.github.io</span>
+    <span class="sb-hide-sm">UTF-8</span>
+    <span class="sb-right"><i class="fas fa-location-dot"></i> Roma, IT</span>
+    <span><i class="fas fa-clock"></i> <b id="localClock">--:--:--</b></span>
+</div>
 
 <!-- Scroll entrance animations -->
 <script>
 (function () {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   var els = document.querySelectorAll('[data-animate]');
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
+    els.forEach(function (el) { el.classList.add('is-visible'); });
+    return;
+  }
   var observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
       if (entry.isIntersecting) {
@@ -427,7 +574,7 @@
   els.forEach(function (el) { observer.observe(el); });
 })();
 </script>
-<!-- Nav behaviour (mobile menu + scrollspy) -->
+<!-- Nav behaviour (mobile menu + scrollspy + command palette + clock) -->
 <script src="js/scripts.js"></script>
 <!-- i18n -->
 <script src="js/i18n.js"></script>
